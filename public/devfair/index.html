@@ -1,253 +1,269 @@
 <!DOCTYPE html>
 <html><head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <title>DevFair</title>
-    <meta charset="utf-8">
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<title>DevFair</title>
+		<meta charset="utf-8">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <script src="index_files/jquery.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<script src="index_files/jquery.js"></script>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<!-- Bootstrap Core CSS -->
+		<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-    <link rel="stylesheet" href="index_files/main.css">
-    <link rel="stylesheet" href="stylesheets/screen.css">
-    <link rel="stylesheet" href="index_files/animate.css">
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="index_files/main.css">
+		<link rel="stylesheet" href="stylesheets/screen.css">
+		<link rel="stylesheet" href="index_files/animate.css">
 
-    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-    <link rel="shortcut icon"
-          href="https://cses.ucsd.edu/devfair/images/favicon.ico"
-          type="image/x-icon">
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<link rel="shortcut icon"
+				href="https://cses.ucsd.edu/devfair/images/favicon.ico"
+		type="image/x-icon">
+		<!--[if lt IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-  </head>
-  <body id="bod" class="">
-    <div class="logo">
-      <img style="width: 40%" src="index_files/cseslogo-300.png"/>
-    </div>
-    <div class="burger">
-      <div class="burger__patty"></div>
-      <div class="burger__patty"></div>
-      <div class="burger__patty"></div>
-    </div>
+	</head>
+	<body id="bod" class="">
+    <a class="logo" href="https://cses.ucsd.edu">
+      <img style="width: 30%" src="index_files/cseslogo-300.png"/>
+    </a>
+		<div class="burger">
+			<div class="burger__patty"></div>
+			<div class="burger__patty"></div>
+			<div class="burger__patty"></div>
+		</div>
 
-    <nav class="menu">
-      <ul class="menu__list">
-        <li class="menu__item"><a href="" id="homeBut" onclick="return false;" class="menu__link">Home</a></li>
-        <li class="menu__item"><a href="" id="aboutBut" onclick="return false;" class="menu__link">About</a></li>
-        <li class="menu__item"><a href="" id="studBut" onclick="return false;" class="menu__link">Students</a></li>
-        <li class="menu__item"><a href="" id="sponBut" onclick="return false;" class="menu__link">Sponsors</a></li>
-      </ul>
-    </nav>
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="https://cses.ucsd.edu">
+						<img style="width: 30%" src="index_files/cseslogo-300.png"/>
+					</a>
+				</div>
+				<div class="navbar-right">
+					<a href="" id="homeBut" onclick="return false;" class="smalltext menu__link">Home</a>
+					<a href="" id="aboutBut" onclick="return false;" class="smalltext menu__link">About</a>
+					<a href="" id="studBut" onclick="return false;" class="smalltext menu__link">Students</a>
+					<a href="" id="sponBut" onclick="return false;" class="smalltext menu__link">Sponsors</a>
+				<div class="navbar-header">
+			</div>
+		</nav>
 
-    <!-- Landing Content -->
-    <div style="opacity: 0;" id="landing-content" class="animated fadeInUp">
+		<nav class="menu">
+			<ul class="menu__list">
+				<li class="menu__item"><a href="" id="homeBut2" onclick="return false;" class="menu__link">Home</a></li>
+				<li class="menu__item"><a href="" id="aboutBut2" onclick="return false;" class="menu__link">About</a></li>
+				<li class="menu__item"><a href="" id="studBut2" onclick="return false;" class="menu__link">Students</a></li>
+				<li class="menu__item"><a href="" id="sponBut2" onclick="return false;" class="menu__link">Sponsors</a></li>
+			</ul>
+		</nav>
 
-      <!-- Header -->
-      <header id="header">
-        <!-- <a href="http://cses.ucsd.edu/"> -->
-        <!--   <img src="index_files/cseslogo-300.png" class="main-logo"> -->
-        <!-- </a> -->
-        <!-- <p style="margin-bottom: 0;">presents</p> -->
-        <div class="glitch" data-text="DEVFAIR">DEVFAIR</div> 
-        <p>Sunday, October 9th, 10:00am - 1:00pm</p>
-        <p style="margin-bottom: 20px;">Multipurpose Room</p>
-      </header>
+		<!-- Landing Content -->
+		<div style="opacity: 0;" id="landing-content" class="animated fadeInUp">
+
+			<!-- Header -->
+			<header id="header">
+				<!-- <a href="http://cses.ucsd.edu/"> -->
+				<!--   <img src="index_files/cseslogo-300.png" class="main-logo"> -->
+				<!-- </a> -->
+				<!-- <p style="margin-bottom: 0;">presents</p> -->
+				<div class="glitch" data-text="DEVFAIR">DEVFAIR</div> 
+				<p>Sunday, October 9th, 10:00am - 1:00pm</p>
+				<p style="margin-bottom: 20px;">Multipurpose Room</p>
+			</header>
 
 
-      <!-- Center Buttons -->
-      <div id="center-buttons">
-        <button id="apply-button">Apply</button>
-        <div class="divider"></div>
-        <button id="students-button">Get More Info</button>
-      </div>
+			<!-- Center Buttons -->
+			<div id="center-buttons">
+				<button id="apply-button">Apply</button>
+				<div class="divider"></div>
+				<button id="students-button">Get More Info</button>
+			</div>
 
-      <!-- Header -->
-      <header id="header" class="top-space vertical-space">
-        <b class="hr anim"></b>
-        <h1 style="padding-top: 60px;" id="what-text" class="thin-text">What?</h1>
-        <p class="description-text">
-        DevFair takes the traditional career fair and spins it on its head;
-        rather than having companies set up booths that students can visit,
-        we’re having groups of students set up booths to showcase their
-        projects to recruiters. This science fair style presentation gives
-        students the opportunity to show their potential better than a resume
-        ever could.
-        </p>
-      </header>
-      <header id="header" class="vertical-space">
-        <h1 class="thin-text">Why?</h1>
-        <p class="description-text">
-        CSE students at UCSD are no strangers to job fairs. Sometimes, though,
-        the scale of a job fair at one of the largest CSE departments in the
-        country can get overwhelming. So, CSES decided to make something a
-        little more personal. We want to give the best and the brightest at
-        UCSD a chance to stand out; the result is our first annual DevFair.
-        </p>
-      </header>
-      <b class="hr anim"></b>
-      <div style="width: 100vw;" id="mycarousel" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <li data-target="#mycarousel" data-slide-to="0"></li>
-          <li data-target="#mycarousel" data-slide-to="1"></li>
-          <li data-target="#mycarousel" data-slide-to="2"></li>
-          <li data-target="#mycarousel" data-slide-to="3"></li>
-          <li data-target="#mycarousel" data-slide-to="4"></li>
-        </ol>
+			<!-- Header -->
+			<header id="header" class="top-space vertical-space">
+				<b class="hr anim"></b>
+				<h1 style="padding-top: 60px;" id="what-text" class="thin-text">What?</h1>
+				<p class="description-text">
+				DevFair takes the traditional career fair and spins it on its head;
+				rather than having companies set up booths that students can visit,
+				we’re having groups of students set up booths to showcase their
+				projects to recruiters. This science fair style presentation gives
+				students the opportunity to show their potential better than a resume
+				ever could.
+				</p>
+			</header>
+			<header id="header" class="vertical-space">
+				<h1 class="thin-text">Why?</h1>
+				<p class="description-text">
+				CSE students at UCSD are no strangers to job fairs. Sometimes, though,
+				the scale of a job fair at one of the largest CSE departments in the
+				country can get overwhelming. So, CSES decided to make something a
+				little more personal. We want to give the best and the brightest at
+				UCSD a chance to stand out; the result is our first annual DevFair.
+				</p>
+			</header>
+			<b class="hr anim"></b>
+			<div style="width: 100vw;" id="mycarousel" class="carousel slide" data-ride="carousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#mycarousel" data-slide-to="0"></li>
+					<li data-target="#mycarousel" data-slide-to="1"></li>
+					<li data-target="#mycarousel" data-slide-to="2"></li>
+					<li data-target="#mycarousel" data-slide-to="3"></li>
+					<li data-target="#mycarousel" data-slide-to="4"></li>
+				</ol>
 
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-          <div class="item">
-            <img class="item-img" src="https://unsplash.it/2000/1250?image=397" data-color="lightblue" alt="First Image">
-          </div>
-          <div class="item">
-            <img class="item-img" src="https://unsplash.it/2000/1250?image=689" data-color="firebrick" alt="Second Image">
-          </div>
-          <div class="item">
-            <img class="item-img" src="https://unsplash.it/2000/1250?image=675" data-color="violet" alt="Third Image">
-          </div>
-          <div class="item">
-            <img class="item-img" src="https://unsplash.it/2000/1250?image=658" data-color="lightgreen" alt="Fourth Image">
-          </div>
-          <div class="item">
-            <img class="item-img" src="https://unsplash.it/2000/1250?image=638" data-color="tomato" alt="Fifth Image">
-          </div>
-        </div>
-      </div>
-      <b class="hr anim"></b>
-      <div id="student-info">
-        <header id="header" class="vertical-space">
-          <h1 id="stud-text" class="thin-text">For Students</h1>
-          <p class="description-text">
-          Been working on a really awesome project all summer? Find it difficult
-          to fit it into your resume? Well we encourage you to take a look at DevFair!
-          This is a fantastic opportunity for you (and your partners if you have them!)
-          to showcase the best work you have to offer, and get rewarded with employment
-          at a top company. At DevFair, you’ll be able to have a significantly more
-          personal experience with recruiters than a traditional job fair, and we think
-          it’ll help you not only find a company that’s a better fit, but also connect
-          with recruiters that have a chance to really see what you’re capable of!
-          </p>
-          <div class="row">
-            <div class="col-md-12">
-              <div style="text-align: center;" class="menu__item"><a href="" id="homeBut" onclick="return false;" class="menu__link">Apply to Participate</a></div>
-            </div>
-          </div>
-        </header>
-      </div>
-      <b class="hr anim"></b>
-      <div class="cust-quotes">
-        <div class="row">
-        <blockquote class="col-md-4"  data-timeout="1800"><p>It was so good I bought one for my grandma</p></blockquote>
-        <blockquote class="col-md-4"  data-timeout="1800"><p>It was so good I bought one for my grandma</p></blockquote>
-        <blockquote class="col-md-4"  data-timeout="1800"><p>It was so good I bought one for my grandma</p></blockquote>
-        <blockquote class="col-md-4"  data-timeout="1800"><p>It was so good I bought one for my grandma</p></blockquote>
-        <blockquote class="col-md-4"  data-timeout="1800"><p>It was so good I bought one for my grandma</p></blockquote>
-        <blockquote class="col-md-4"  data-timeout="1800"><p>It was so good I bought one for my grandma</p></blockquote>
-        </div>
-      </div>
-      <b class="hr anim"></b>
-      <div id="sponsor-info">
-        <header id="header" class="vertical-space">
-          <h1 id="spon-text" class="thin-text">For Sponsors</h1>
-          <p class="description-text">
-          DevFair is a recruiting opportunity unlike any other. Job fairs show you
-          resumes, but those are only a small window into what a student has done.
-          Hackathons can show you how students work under pressure, but they do a
-          bad job of showing what students can achieve when given the time to create
-          a truly finished product. DevFair can offer you new insight into UCSD’s
-          best and brightest CSE students, by showing you what they’re truly capable
-          of across a long period of time.
-          </p>
-          <div class="row">
-            <div class="col-md-12">
-              <div style="text-align: center;" class="menu__item"><a href="" id="homeBut" onclick="return false;" class="menu__link">Apply to Sponsor</a></div>
-            </div>
-          </div>
-        </header>
-      </div>
-      <footer>
-      </footer>
-      <!-- Header -->
-    </div>
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+					<div class="item">
+						<img class="item-img" src="https://unsplash.it/2000/1250?image=397" data-color="lightblue" alt="First Image">
+					</div>
+					<div class="item">
+						<img class="item-img" src="https://unsplash.it/2000/1250?image=689" data-color="firebrick" alt="Second Image">
+					</div>
+					<div class="item">
+						<img class="item-img" src="https://unsplash.it/2000/1250?image=675" data-color="violet" alt="Third Image">
+					</div>
+					<div class="item">
+						<img class="item-img" src="https://unsplash.it/2000/1250?image=658" data-color="lightgreen" alt="Fourth Image">
+					</div>
+					<div class="item">
+						<img class="item-img" src="https://unsplash.it/2000/1250?image=638" data-color="tomato" alt="Fifth Image">
+					</div>
+				</div>
+			</div>
+			<b class="hr anim"></b>
+			<div id="student-info">
+				<header id="header" class="vertical-space">
+					<h1 id="stud-text" class="thin-text">For Students</h1>
+					<p class="description-text">
+					Been working on a really awesome project all summer? Find it difficult
+					to fit it into your resume? Well we encourage you to take a look at DevFair!
+					This is a fantastic opportunity for you (and your partners if you have them!)
+					to showcase the best work you have to offer, and get rewarded with employment
+					at a top company. At DevFair, you’ll be able to have a significantly more
+					personal experience with recruiters than a traditional job fair, and we think
+					it’ll help you not only find a company that’s a better fit, but also connect
+					with recruiters that have a chance to really see what you’re capable of!
+					</p>
+					<div class="row">
+						<div class="col-md-12">
+							<div style="text-align: center;" class="menu__item"><a href="" id="homeBut" onclick="return false;" class="menu__link">Apply to Participate</a></div>
+						</div>
+					</div>
+				</header>
+			</div>
+			<b class="hr anim"></b>
+			<div class="cust-quotes">
+				<div class="row">
+					<blockquote class="col-md-4"  data-timeout="1800"><p>It was so good I bought one for my grandma</p></blockquote>
+					<blockquote class="col-md-4"  data-timeout="1800"><p>It was so good I bought one for my grandma</p></blockquote>
+					<blockquote class="col-md-4"  data-timeout="1800"><p>It was so good I bought one for my grandma</p></blockquote>
+					<blockquote class="col-md-4"  data-timeout="1800"><p>It was so good I bought one for my grandma</p></blockquote>
+					<blockquote class="col-md-4"  data-timeout="1800"><p>It was so good I bought one for my grandma</p></blockquote>
+					<blockquote class="col-md-4"  data-timeout="1800"><p>It was so good I bought one for my grandma</p></blockquote>
+				</div>
+			</div>
+			<b class="hr anim"></b>
+			<div id="sponsor-info">
+				<header id="header" class="vertical-space">
+					<h1 id="spon-text" class="thin-text">For Sponsors</h1>
+					<p class="description-text">
+					DevFair is a recruiting opportunity unlike any other. Job fairs show you
+					resumes, but those are only a small window into what a student has done.
+					Hackathons can show you how students work under pressure, but they do a
+					bad job of showing what students can achieve when given the time to create
+					a truly finished product. DevFair can offer you new insight into UCSD’s
+					best and brightest CSE students, by showing you what they’re truly capable
+					of across a long period of time.
+					</p>
+					<div class="row">
+						<div class="col-md-12">
+							<div style="text-align: center;" class="menu__item"><a href="" id="homeBut" onclick="return false;" class="menu__link">Apply to Sponsor</a></div>
+						</div>
+					</div>
+				</header>
+			</div>
+			<footer>
+			</footer>
+			<!-- Header -->
+		</div>
 
-    <!-- Scripts -->
-    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-    <script src="index_files/main.js">
-    </script>
-    <div id="bg">
-    	<div style="background-image: url('index_files/bg01.jpg');
-    	background-position: center center;" class="visible top"></div>
-    	<div style="background-image: url('index_files/bg02.jpg');
-    	background-position: center center;" class=""></div>
-    	<div style="background-image: url('index_files/bg03.jpg');
-    	background-position: center center;" class="visible"></div>
-    </div>
+		<!-- Scripts -->
+		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+		<script src="index_files/main.js">
+		</script>
+		<div id="bg">
+			<div style="background-image: url('index_files/bg01.jpg');
+			background-position: center center;" class="visible top"></div>
+			<div style="background-image: url('index_files/bg02.jpg');
+			background-position: center center;" class=""></div>
+			<div style="background-image: url('index_files/bg03.jpg');
+			background-position: center center;" class="visible"></div>
+		</div>
 
-  </body>
+	</body>
 
-  <script>
+	<script>
 (function() {
 
-  var Menu = (function() {
-    var burger = document.querySelector('.burger');
-    var menu = document.querySelector('.menu');
-    var menuList = document.querySelector('.menu__list');
-    var brand = document.querySelector('.menu__brand');
-    var menuItems = document.querySelectorAll('.menu__item');
+	var Menu = (function() {
+		var burger = document.querySelector('.burger');
+		var menu = document.querySelector('.menu');
+		var menuList = document.querySelector('.menu__list');
+		var brand = document.querySelector('.menu__brand');
+		var menuItems = document.querySelectorAll('.menu__item');
 
-    var active = false;
+		var active = false;
 
-    var toggleMenu = function() {
-      if (!active) {
-        menu.classList.add('menu--active');
-        menuList.classList.add('menu__list--active');
-        burger.classList.add('burger--close');
-        for (var i = 0, ii = menuItems.length; i < ii; i++) {
-          menuItems[i].classList.add('menu__item--active');
-        }
+		var toggleMenu = function() {
+			if (!active) {
+				menu.classList.add('menu--active');
+				menuList.classList.add('menu__list--active');
+				burger.classList.add('burger--close');
+				for (var i = 0, ii = menuItems.length; i < ii; i++) {
+					menuItems[i].classList.add('menu__item--active');
+				}
 
-        active = true;
-      } else {
-        menu.classList.remove('menu--active');
-        menuList.classList.remove('menu__list--active');
-        burger.classList.remove('burger--close');
-        for (var i = 0, ii = menuItems.length; i < ii; i++) {
-          menuItems[i].classList.remove('menu__item--active');
-        }
+				active = true;
+			} else {
+				menu.classList.remove('menu--active');
+				menuList.classList.remove('menu__list--active');
+				burger.classList.remove('burger--close');
+				for (var i = 0, ii = menuItems.length; i < ii; i++) {
+					menuItems[i].classList.remove('menu__item--active');
+				}
 
-        active = false;
-      }
-    };
+				active = false;
+			}
+		};
 
-    var bindActions = function() {
-      burger.addEventListener('click', toggleMenu, false);
-      menuList.addEventListener('click', toggleMenu, false);
-    };
+		var bindActions = function() {
+			burger.addEventListener('click', toggleMenu, false);
+			menuList.addEventListener('click', toggleMenu, false);
+		};
 
-    var init = function() {
-      bindActions();
-    };
+		var init = function() {
+			bindActions();
+		};
 
-    return {
-      init: init
-    };
+		return {
+			init: init
+		};
 
-  }());
+	}());
 
-  Menu.init();
+	Menu.init();
 
 }());
-  </script>
-  <script>
+	</script>
+	<script>
 var $item = $('.carousel .item');
 var $wHeight = $(window).height();
 
@@ -258,34 +274,34 @@ var $numberofSlides = $('.item').length;
 var $currentSlide = Math.floor((Math.random() * $numberofSlides));
 
 $('.carousel-indicators li').each(function(){
-  var $slideValue = $(this).attr('data-slide-to');
-  if($currentSlide == $slideValue) {
-    $(this).addClass('active');
-    $item.eq($slideValue).addClass('active');
-  } else {
-    $(this).removeClass('active');
-    $item.eq($slideValue).removeClass('active');
-  }
+	var $slideValue = $(this).attr('data-slide-to');
+	if($currentSlide == $slideValue) {
+		$(this).addClass('active');
+		$item.eq($slideValue).addClass('active');
+	} else {
+		$(this).removeClass('active');
+		$item.eq($slideValue).removeClass('active');
+	}
 });
 
 $('.carousel img').each(function() {
-  var $src = $(this).attr('src');
-  var $color = $(this).attr('data-color');
-  $(this).parent().css({
-    'background-image' : 'url(' + $src + ')',
-        'background-color' : $color
-        });
-    $(this).remove();
-    });
+	var $src = $(this).attr('src');
+	var $color = $(this).attr('data-color');
+	$(this).parent().css({
+		'background-image' : 'url(' + $src + ')',
+				'background-color' : $color
+				});
+		$(this).remove();
+		});
 
-  $(window).on('resize', function (){
-    $wHeight = $(window).height();
-    $item.height($wHeight);
-  });
+	$(window).on('resize', function (){
+		$wHeight = $(window).height();
+		$item.height($wHeight);
+	});
 
-  $('.carousel').carousel({
-    interval: 5000,
-    pause: "false"
-  });
-  </script>
+	$('.carousel').carousel({
+		interval: 5000,
+		pause: "false"
+	});
+	</script>
 </html>
