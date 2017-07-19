@@ -194,9 +194,10 @@ a:focus {
   z-index: 1000;
   left: 20px;
   top: 7px;
+  width: 25vw;
 }
 
-/* line 175, ../sass/screen.scss */
+/* line 176, ../sass/screen.scss */
 .burger {
   position: fixed;
   z-index: 1000;
@@ -206,7 +207,7 @@ a:focus {
   transform: rotateY(0);
   transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
 }
-/* line 185, ../sass/screen.scss */
+/* line 186, ../sass/screen.scss */
 .burger__patty {
   width: 28px;
   height: 2px;
@@ -214,39 +215,39 @@ a:focus {
   background: white;
   transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
 }
-/* line 192, ../sass/screen.scss */
+/* line 193, ../sass/screen.scss */
 .burger__patty:last-child {
   margin-bottom: 0;
 }
-/* line 198, ../sass/screen.scss */
+/* line 199, ../sass/screen.scss */
 .burger--close {
   transform: rotate(180deg);
 }
-/* line 202, ../sass/screen.scss */
+/* line 203, ../sass/screen.scss */
 .burger--close .burger__patty:nth-child(1) {
   transform: rotate(45deg) translate(4px, 4px);
 }
-/* line 205, ../sass/screen.scss */
+/* line 206, ../sass/screen.scss */
 .burger--close .burger__patty:nth-child(2) {
   opacity: 0;
 }
-/* line 208, ../sass/screen.scss */
+/* line 209, ../sass/screen.scss */
 .burger--close .burger__patty:nth-child(3) {
   transform: rotate(-45deg) translate(5px, -4px);
 }
 
 @media screen and (min-width: 768px) {
-  /* line 217, ../sass/screen.scss */
+  /* line 218, ../sass/screen.scss */
   .burger {
     display: none;
   }
 
-  /* line 220, ../sass/screen.scss */
+  /* line 221, ../sass/screen.scss */
   .logo {
     display: none;
   }
 }
-/* line 225, ../sass/screen.scss */
+/* line 226, ../sass/screen.scss */
 .navbar-default {
   position: fixed;
   z-index: 1337;
@@ -257,7 +258,7 @@ a:focus {
   border-bottom: 1px solid white;
 }
 
-/* line 235, ../sass/screen.scss */
+/* line 236, ../sass/screen.scss */
 .menu {
   position: fixed;
   z-index: 999;
@@ -265,11 +266,11 @@ a:focus {
   width: 100%;
   visibility: hidden;
 }
-/* line 242, ../sass/screen.scss */
+/* line 243, ../sass/screen.scss */
 .menu--active {
   visibility: visible;
 }
-/* line 246, ../sass/screen.scss */
+/* line 247, ../sass/screen.scss */
 .menu__brand, .menu__list {
   display: flex;
   flex-flow: column wrap;
@@ -280,7 +281,7 @@ a:focus {
   height: 100vh;
   overflow: hidden;
 }
-/* line 258, ../sass/screen.scss */
+/* line 259, ../sass/screen.scss */
 .menu__list {
   margin: 0;
   padding: 0;
@@ -289,19 +290,19 @@ a:focus {
   transform: translate3d(0, -100%, 0);
   transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
 }
-/* line 266, ../sass/screen.scss */
+/* line 267, ../sass/screen.scss */
 .menu__list--active {
   transform: translate3d(0, 0, 0);
 }
-/* line 271, ../sass/screen.scss */
+/* line 272, ../sass/screen.scss */
 .menu__item {
   transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
 }
-/* line 274, ../sass/screen.scss */
+/* line 275, ../sass/screen.scss */
 .menu__item--active {
   transform: translate3d(0, 0, 0);
 }
-/* line 279, ../sass/screen.scss */
+/* line 280, ../sass/screen.scss */
 .menu__link {
   display: inline-block;
   position: relative;
@@ -313,7 +314,7 @@ a:focus {
   color: white;
   transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
 }
-/* line 290, ../sass/screen.scss */
+/* line 291, ../sass/screen.scss */
 .menu__link:before {
   content: "";
   position: absolute;
@@ -325,81 +326,81 @@ a:focus {
   transform: translateX(-50%);
   transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
 }
-/* line 303, ../sass/screen.scss */
+/* line 304, ../sass/screen.scss */
 .menu__link:hover:before {
   width: 100%;
 }
-/* line 308, ../sass/screen.scss */
+/* line 309, ../sass/screen.scss */
 .menu__link:active {
   text-decoration: none;
 }
-/* line 316, ../sass/screen.scss */
+/* line 317, ../sass/screen.scss */
 .menu .menu__item:nth-child(1) {
   transition-delay: 0.1s;
 }
-/* line 316, ../sass/screen.scss */
+/* line 317, ../sass/screen.scss */
 .menu .menu__item:nth-child(2) {
   transition-delay: 0.2s;
 }
-/* line 316, ../sass/screen.scss */
+/* line 317, ../sass/screen.scss */
 .menu .menu__item:nth-child(3) {
   transition-delay: 0.3s;
 }
-/* line 316, ../sass/screen.scss */
+/* line 317, ../sass/screen.scss */
 .menu .menu__item:nth-child(4) {
   transition-delay: 0.4s;
 }
-/* line 316, ../sass/screen.scss */
+/* line 317, ../sass/screen.scss */
 .menu .menu__item:nth-child(5) {
   transition-delay: 0.5s;
 }
-/* line 316, ../sass/screen.scss */
+/* line 317, ../sass/screen.scss */
 .menu .menu__item:nth-child(6) {
   transition-delay: 0.6s;
 }
 
-/* line 323, ../sass/screen.scss */
+/* line 324, ../sass/screen.scss */
 .current:before {
   width: 100%;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 330, ../sass/screen.scss */
+  /* line 331, ../sass/screen.scss */
   ul.menu__list,
   div.menu__brand {
     float: none;
     width: 100%;
     min-height: 0;
   }
-  /* line 336, ../sass/screen.scss */
+  /* line 337, ../sass/screen.scss */
   ul.menu__list--active,
   div.menu__brand--active {
     transform: translate3d(0, 0, 0);
   }
 
-  /* line 341, ../sass/screen.scss */
+  /* line 342, ../sass/screen.scss */
   .menu__list {
     height: 100vh;
     transform: translate3d(-100%, 0, 0);
   }
 
-  /* line 346, ../sass/screen.scss */
+  /* line 347, ../sass/screen.scss */
   .menu__link {
     font-size: 24px;
   }
 
-  /* line 350, ../sass/screen.scss */
+  /* line 351, ../sass/screen.scss */
   .menu__brand {
     height: 25vh;
     transform: translate3d(100%, 0, 0);
   }
-  /* line 354, ../sass/screen.scss */
+  /* line 355, ../sass/screen.scss */
   .menu__brand .logo {
     width: 90px;
     height: 90px;
   }
 }
-/* line 363, ../sass/screen.scss */
+/* line 364, ../sass/screen.scss */
 .glitch {
   font-size: 175px;
   width: 375px;
@@ -413,70 +414,70 @@ a:focus {
 
 @keyframes noise-anim {
   0% {
-    clip: rect(53px, 9999px, 193px, 0);
+    clip: rect(199px, 9999px, 89px, 0);
   }
   5% {
-    clip: rect(16px, 9999px, 169px, 0);
+    clip: rect(107px, 9999px, 83px, 0);
   }
   10% {
-    clip: rect(76px, 9999px, 141px, 0);
+    clip: rect(139px, 9999px, 177px, 0);
   }
   15% {
-    clip: rect(90px, 9999px, 52px, 0);
+    clip: rect(108px, 9999px, 139px, 0);
   }
   20% {
-    clip: rect(57px, 9999px, 6px, 0);
+    clip: rect(94px, 9999px, 4px, 0);
   }
   25% {
-    clip: rect(66px, 9999px, 5px, 0);
+    clip: rect(15px, 9999px, 86px, 0);
   }
   30% {
-    clip: rect(178px, 9999px, 54px, 0);
+    clip: rect(178px, 9999px, 198px, 0);
   }
   35% {
-    clip: rect(20px, 9999px, 177px, 0);
+    clip: rect(169px, 9999px, 120px, 0);
   }
   40% {
-    clip: rect(200px, 9999px, 95px, 0);
+    clip: rect(173px, 9999px, 107px, 0);
   }
   45% {
-    clip: rect(43px, 9999px, 134px, 0);
+    clip: rect(56px, 9999px, 87px, 0);
   }
   50% {
-    clip: rect(89px, 9999px, 29px, 0);
+    clip: rect(54px, 9999px, 47px, 0);
   }
   55% {
-    clip: rect(66px, 9999px, 122px, 0);
+    clip: rect(33px, 9999px, 99px, 0);
   }
   60% {
-    clip: rect(54px, 9999px, 16px, 0);
+    clip: rect(27px, 9999px, 60px, 0);
   }
   65% {
-    clip: rect(9px, 9999px, 122px, 0);
+    clip: rect(103px, 9999px, 80px, 0);
   }
   70% {
-    clip: rect(195px, 9999px, 197px, 0);
+    clip: rect(151px, 9999px, 103px, 0);
   }
   75% {
-    clip: rect(69px, 9999px, 116px, 0);
+    clip: rect(46px, 9999px, 50px, 0);
   }
   80% {
-    clip: rect(164px, 9999px, 185px, 0);
+    clip: rect(194px, 9999px, 57px, 0);
   }
   85% {
-    clip: rect(85px, 9999px, 105px, 0);
+    clip: rect(194px, 9999px, 60px, 0);
   }
   90% {
-    clip: rect(52px, 9999px, 43px, 0);
+    clip: rect(133px, 9999px, 194px, 0);
   }
   95% {
-    clip: rect(160px, 9999px, 135px, 0);
+    clip: rect(166px, 9999px, 62px, 0);
   }
   100% {
-    clip: rect(78px, 9999px, 29px, 0);
+    clip: rect(169px, 9999px, 92px, 0);
   }
 }
-/* line 381, ../sass/screen.scss */
+/* line 382, ../sass/screen.scss */
 .glitch:after {
   content: attr(data-text);
   position: absolute;
@@ -494,70 +495,70 @@ a:focus {
 
 @keyframes noise-anim-2 {
   0% {
-    clip: rect(49px, 9999px, 60px, 0);
+    clip: rect(8px, 9999px, 197px, 0);
   }
   5% {
-    clip: rect(154px, 9999px, 75px, 0);
+    clip: rect(62px, 9999px, 30px, 0);
   }
   10% {
-    clip: rect(92px, 9999px, 133px, 0);
+    clip: rect(13px, 9999px, 91px, 0);
   }
   15% {
-    clip: rect(89px, 9999px, 38px, 0);
+    clip: rect(2px, 9999px, 10px, 0);
   }
   20% {
-    clip: rect(86px, 9999px, 98px, 0);
+    clip: rect(191px, 9999px, 11px, 0);
   }
   25% {
-    clip: rect(123px, 9999px, 65px, 0);
+    clip: rect(115px, 9999px, 54px, 0);
   }
   30% {
-    clip: rect(59px, 9999px, 146px, 0);
+    clip: rect(19px, 9999px, 52px, 0);
   }
   35% {
-    clip: rect(153px, 9999px, 68px, 0);
+    clip: rect(42px, 9999px, 39px, 0);
   }
   40% {
-    clip: rect(81px, 9999px, 132px, 0);
+    clip: rect(76px, 9999px, 41px, 0);
   }
   45% {
-    clip: rect(139px, 9999px, 17px, 0);
+    clip: rect(189px, 9999px, 157px, 0);
   }
   50% {
-    clip: rect(164px, 9999px, 65px, 0);
+    clip: rect(122px, 9999px, 104px, 0);
   }
   55% {
-    clip: rect(14px, 9999px, 31px, 0);
+    clip: rect(169px, 9999px, 49px, 0);
   }
   60% {
-    clip: rect(90px, 9999px, 5px, 0);
+    clip: rect(189px, 9999px, 16px, 0);
   }
   65% {
-    clip: rect(46px, 9999px, 65px, 0);
+    clip: rect(29px, 9999px, 87px, 0);
   }
   70% {
-    clip: rect(144px, 9999px, 167px, 0);
+    clip: rect(28px, 9999px, 22px, 0);
   }
   75% {
-    clip: rect(48px, 9999px, 192px, 0);
+    clip: rect(152px, 9999px, 37px, 0);
   }
   80% {
-    clip: rect(176px, 9999px, 196px, 0);
+    clip: rect(58px, 9999px, 137px, 0);
   }
   85% {
-    clip: rect(146px, 9999px, 169px, 0);
+    clip: rect(75px, 9999px, 131px, 0);
   }
   90% {
-    clip: rect(28px, 9999px, 93px, 0);
+    clip: rect(65px, 9999px, 187px, 0);
   }
   95% {
-    clip: rect(156px, 9999px, 165px, 0);
+    clip: rect(42px, 9999px, 31px, 0);
   }
   100% {
-    clip: rect(3px, 9999px, 154px, 0);
+    clip: rect(31px, 9999px, 4px, 0);
   }
 }
-/* line 404, ../sass/screen.scss */
+/* line 405, ../sass/screen.scss */
 .glitch:before {
   content: attr(data-text);
   position: absolute;
@@ -574,46 +575,46 @@ a:focus {
 }
 
 @media screen and (max-width: 768px) {
-  /* line 420, ../sass/screen.scss */
+  /* line 421, ../sass/screen.scss */
   .glitch {
     font-size: 80px;
     width: 350px;
     margin: 0 auto;
   }
 
-  /* line 426, ../sass/screen.scss */
+  /* line 427, ../sass/screen.scss */
   .navbar-default {
     display: none;
   }
 
-  /* line 430, ../sass/screen.scss */
+  /* line 431, ../sass/screen.scss */
   .cust-quotes blockquote p {
     font-size: 1.5em;
   }
 }
 @media screen and (max-width: 325px) {
-  /* line 436, ../sass/screen.scss */
+  /* line 437, ../sass/screen.scss */
   .glitch {
     font-size: 75px;
     width: 350px;
     margin: 0 auto;
   }
 }
-/* line 443, ../sass/screen.scss */
+/* line 444, ../sass/screen.scss */
 .smalltext {
   padding-right: 10px;
   font-size: 1.5em;
 }
 
 /* horizontal */
-/* line 449, ../sass/screen.scss */
+/* line 450, ../sass/screen.scss */
 .horizontal {
   width: 287px;
   position: relative;
   overflow: hidden;
 }
 
-/* line 454, ../sass/screen.scss */
+/* line 455, ../sass/screen.scss */
 .horizontal .items {
   width: 1148px;
   -webkit-animation: hscroll 20s infinite;
@@ -622,7 +623,7 @@ a:focus {
   animation: hscroll 20s infinite;
 }
 
-/* line 461, ../sass/screen.scss */
+/* line 462, ../sass/screen.scss */
 .horizontal .item {
   margin: 0;
   float: left;
@@ -700,4 +701,15 @@ a:focus {
   100% {
     margin-left: 0;
   }
+}
+/* line 500, ../sass/screen.scss */
+#event-photos .carousel-inner {
+  height: 500px;
+}
+
+/* line 504, ../sass/screen.scss */
+#event-photos .carousel-inner img {
+  position: relative;
+  top: 50%;
+  transform: translateY(-25%);
 }

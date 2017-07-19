@@ -170,6 +170,7 @@ a {
   z-index: 1000;
   left: 20px;
   top: 7px;
+	width: 25vw;
 }
 
 .burger {
@@ -494,4 +495,14 @@ a {
   50%, 68.75% { margin-left: -574px; }
   75%, 93.75% { margin-left: -861px; }
   100%  { margin-left: 0 }
+}
+
+#event-photos .carousel-inner{
+    height: 500px;
+}
+
+#event-photos .carousel-inner img{
+    position: relative;
+    top: 50%;
+    transform: translateY(-25%);
 }
