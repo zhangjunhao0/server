@@ -2,6 +2,7 @@
 $(window).scroll(
     function() {
 
+			setTimeout( function() {
       var top = 0;
       top = $(window).scrollTop();
 
@@ -23,7 +24,7 @@ $(window).scroll(
         $("#sponBut").parent().children().removeClass("current");
         $("#sponBut").addClass("current");
 
-      }
+      }}, 300);
     });
 
 // YES YES YES I KNOW I REPLICATED THE DAMN FUNCTIONS HERE AND I SHOULD

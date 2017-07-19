@@ -80,7 +80,9 @@
 
 			<!-- Center Buttons -->
 			<div id="center-buttons">
-				<button id="apply-button">Apply</button>
+				<a href="https://goo.gl/forms/ImU6LNs0ob0nmEeG2" target="_blank"><button id="apply-button" >Apply to Sponsor</button></a>
+				<div class="divider"></div>
+				<a href="https://goo.gl/forms/ImU6LNs0ob0nmEeG2" target="_blank"><button id="apply-button" >Apply to Participate</button></a>
 				<div class="divider"></div>
 				<button id="students-button">Get More Info</button>
 			</div>
@@ -144,10 +146,10 @@
 				</div>
 				<script type="text/javascript">
 						$(document).ready(function () {
-							console.log("Starting carousel!");
-							$('.carousel').carousel({
-								interval: 5000,
-							});
+							setTimeout( function () {
+								$('.carousel').carousel({
+									interval: 10000,
+								})}, 1000);
 						});
 				</script>
 			</div>
@@ -167,7 +169,7 @@
 					</p>
 					<div class="row">
 						<div class="col-md-12">
-							<div style="text-align: center;" class="menu__item"><a href="" id="homeBut" onclick="return false;" class="menu__link">Apply to Participate</a></div>
+							<div style="text-align: center;" class="menu__item"><a href="https://goo.gl/forms/ImU6LNs0ob0nmEeG2" target="_blank" id="homeBut" class="menu__link">Apply to Participate</a></div>
 						</div>
 					</div>
 				</header>
@@ -198,7 +200,7 @@
 					</p>
 					<div class="row">
 						<div class="col-md-12">
-							<div style="text-align: center;" class="menu__item"><a href="" id="homeBut" onclick="return false;" class="menu__link">Apply to Sponsor</a></div>
+							<div style="text-align: center;" class="menu__item"><a href="https://goo.gl/forms/ImU6LNs0ob0nmEeG2" target="_blank" id="homeBut" class="menu__link">Apply to Sponsor</a></div>
 						</div>
 					</div>
 				</header>
