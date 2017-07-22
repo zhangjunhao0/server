@@ -499,6 +499,12 @@ a {
 
 #event-photos .carousel-inner{
     height: 500px;
+    @media (max-width: 1000px) {
+      height: 250px;
+    }
+    @media (max-width: 400px) {
+      height: 150px;
+    }
 }
 
 #event-photos .carousel-inner img{
