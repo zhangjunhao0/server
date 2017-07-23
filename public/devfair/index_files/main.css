@@ -1016,6 +1016,7 @@ button:disabled,
 /* Header */
 .vertical-space {
   margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 #header h1 {
