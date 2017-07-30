@@ -1429,3 +1429,7 @@ border-bottom: 1px solid rgba(255,255,255,0.1);
     background: transparent;
     border: #EBB111 1px solid;
   }
+
+  .sponsor-logo{
+    width: 100%;
+  }
