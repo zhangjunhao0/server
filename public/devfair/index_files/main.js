@@ -1,34 +1,4 @@
 
-var scrollAnimAllowed = true;
-
-$(window).scroll( function() {
-    changeActiveLink();
-});
-
-function changeActiveLink() {
-
-  scrollAnimAllowed = false;
-
-  var top = 0;
-  top = $(window).scrollTop();
-
-  if(top < $('#what-text').offset().top - 250){
-    $("#homeBut").parent().children().removeClass("current");
-    $("#homeBut").addClass("current");
-  }
-  else if((top >= $('#what-text').offset().top - 250) && (top < $('#stud-text').offset().top - 250)){
-    $("#aboutBut").parent().children().removeClass("current");
-    $("#aboutBut").addClass("current");
-  }    
-  else if((top >= $('#stud-text').offset().top - 250) && (top < $('#cust-quotes').offset().top - 250)){      
-    $("#studBut").parent().children().removeClass("current");
-    $("#studBut").addClass("current");
-  } else {
-    $("#sponBut").parent().children().removeClass("current");
-    $("#sponBut").addClass("current");
-  }
-}
-
 // YES YES YES I KNOW I REPLICATED THE DAMN FUNCTIONS HERE AND I SHOULD
 // HAVE BETTER STYLE AND CODING PRACTICE IN GENERAL BUT I DON'T WANT TO 
 // SPEND FOREVER ON THIS SITE, I'VE GOT A GIRLFRIEND AND A JOB AND WANT
@@ -40,7 +10,6 @@ $('#students-button').click(function() {
   $('html,body').animate({
     scrollTop: $('#what-text').offset().top - 40},
     'slow');
-  changeActiveLink();
 });
 
 // YES YES YES I KNOW I REPLICATED THE DAMN FUNCTIONS HERE AND I SHOULD
@@ -53,7 +22,6 @@ $('#homeBut').click(function() {
   $('html,body').animate({
     scrollTop: $('#bod').offset().top - 80},
     'slow');
-  changeActiveLink();
 });
 
 // YES YES YES I KNOW I REPLICATED THE DAMN FUNCTIONS HERE AND I SHOULD
@@ -66,7 +34,6 @@ $('#aboutBut').click(function() {
   $('html,body').animate({
     scrollTop: $('#what-text').offset().top - 80},
     'slow');
-  changeActiveLink();
 });
 
 // YES YES YES I KNOW I REPLICATED THE DAMN FUNCTIONS HERE AND I SHOULD
@@ -79,7 +46,6 @@ $('#studBut').click(function() {
   $('html,body').animate({
     scrollTop: $('#stud-text').offset().top - 80},
     'slow');
-  changeActiveLink();
 });
 
 // YES YES YES I KNOW I REPLICATED THE DAMN FUNCTIONS HERE AND I SHOULD
@@ -92,7 +58,6 @@ $('#sponBut').click(function() {
   $('html,body').animate({
     scrollTop: $('#spon-text').offset().top - 80},
     'slow');
-  changeActiveLink();
 });
 
 // YES YES YES I KNOW I REPLICATED THE DAMN FUNCTIONS HERE AND I SHOULD
@@ -105,7 +70,6 @@ $('#homeBut2').click(function() {
   $('html,body').animate({
     scrollTop: $('#bod').offset().top - 40},
     'slow');
-  changeActiveLink();
 });
 
 // YES YES YES I KNOW I REPLICATED THE DAMN FUNCTIONS HERE AND I SHOULD
@@ -118,7 +82,6 @@ $('#aboutBut2').click(function() {
   $('html,body').animate({
     scrollTop: $('#what-text').offset().top - 40},
     'slow');
-  changeActiveLink();
 });
 
 // YES YES YES I KNOW I REPLICATED THE DAMN FUNCTIONS HERE AND I SHOULD
@@ -131,7 +94,6 @@ $('#studBut2').click(function() {
   $('html,body').animate({
     scrollTop: $('#stud-text').offset().top - 40},
     'slow');
-  changeActiveLink();
 });
 
 // YES YES YES I KNOW I REPLICATED THE DAMN FUNCTIONS HERE AND I SHOULD
@@ -144,5 +106,4 @@ $('#sponBut2').click(function() {
   $('html,body').animate({
     scrollTop: $('#spon-text').offset().top - 40},
     'slow');
-  changeActiveLink();
 });
